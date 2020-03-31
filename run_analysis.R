@@ -13,8 +13,6 @@ names(Data)[2] = "activity"
 
 ##Add descriptive variable names
 names(Data)<-gsub("Acc", "Accelerometer", names(Data))
-names(Data)<-gsub("Gyro", "Gyroscope", names(Data))
-names(Data)<-gsub("BodyBody", "Body", names(Data))
 names(Data)<-gsub("Mag", "Magnitude", names(Data))
 names(Data)<-gsub("^t", "Time", names(Data))
 names(Data)<-gsub("^f", "Frequency", names(Data))
